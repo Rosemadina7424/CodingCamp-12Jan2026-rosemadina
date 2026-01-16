@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Profil Perusahaan</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo-container">
+        <a href="#home" class="logo-link">
+            <img src="image/logo.png" alt="Logo MyCompany" class="logo-img">
+        </a>
+    </div>
+        <div class="logo">MyCompany</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#profile">Profil</a></li>
+            <li><a href="#achievements">Prestasi</a></li>
+            <li><a href="#contact">Kontak</a></li>
+        </ul>
+    </nav>
+
+    
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1 id="welcome-message">Selamat Datang</h1>
+            <p>Inovasi untuk masa depan yang lebih baik.</p>
+        </div>
+    </header>
+
+    <section id="profile">
+        <div class="profile-banner">
+            <h2>PROFIL KAMI</h2>
+        </div>
+        <div class="container">
+            <div class="about-section">
+                <h3>Tentang Perusahaan</h3>
+                <p>Kami adalah pemimpin industri dalam solusi digital kreatif. Berdiri sejak tahun 2015, kami berkomitmen untuk memberikan kualitas terbaik bagi klien kami.</p>
+            </div>
+            <div class="vision-mission">
+                <div class="card">
+                    <h4>Visi</h4>
+                    <p>Menjadi mitra digital terpercaya di level global.</p>
+                </div>
+                <div class="card">
+                    <h4>Misi</h4>
+                    <ul>
+                        <li>Solusi Inovatif.</li>
+                        <li>Kepuasan Klien.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="achievements-section">
+        <div class="container">
+            <h3 class="section-title">Prestasi & Penghargaan</h3>
+            <div class="achievement-grid">
+                <div class="achievement-card">
+                    <div class="icon">🏆</div>
+                    <h4>Best Digital Agency 2023</h4>
+                    <p>Penghargaan tingkat nasional atas inovasi teknologi terbaik.</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="icon">⭐</div>
+                    <h4>Top 10 Tech Startup</h4>
+                    <p>Masuk dalam daftar startup paling berpengaruh versi Majalah Bisnis.</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="icon">🤝</div>
+                    <h4>500+ Happy Clients</h4>
+                    <p>Telah melayani lebih dari 500 perusahaan di berbagai sektor industri.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h3>Hubungi Kami</h3>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label>Nama:</label>
+                    <input type="text" id="nameInput" required>
+                </div>
+                <div class="form-group">
+                    <label>Email:</label>
+                    <input type="email" id="emailInput" required>
+                </div>
+                <div class="form-group">
+                    <label>Pesan:</label>
+                    <textarea id="messageInput" required></textarea>
+                </div>
+                <button type="submit">Kirim Pesan</button>
+            </form>
+            <div id="formResult" class="result-box"></div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 MyCompany Profile.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
